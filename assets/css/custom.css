@@ -1,1 +1,7 @@
-/* Add your custom styles here */
+/* Custom Styles */
+
+.team-img {
+  height: 400px;           
+  object-fit: cover;       /* crop instead of distort */
+  object-position: top;
+}
