@@ -27,3 +27,8 @@
   width: 100%;             /* ensures it spans full width of card body */
   margin: 0 auto 1rem;     /* adds spacing below */
 }
+
+.color-block {
+  width: 100%;
+  height: 300px;            /* adjust height to match card image */
+}
