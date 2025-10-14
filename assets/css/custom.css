@@ -5,3 +5,25 @@
   object-fit: cover;       /* crop instead of distort */
   object-position: top;
 }
+
+.color-info {
+  display: grid;
+  grid-template-columns: auto 1fr; /* two columns */
+  width: 250px; /* adjust as needed */
+  font-family: monospace; /* keeps text spacing uniform */
+}
+
+.color-info div:nth-child(2n) {
+  text-align: right;
+}
+
+.parent {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+}
+
+.color-card-body h4 {
+  text-align: center;      /* center the text */
+  width: 100%;             /* ensures it spans full width of card body */
+  margin: 0 auto 1rem;     /* adds spacing below */
+}
