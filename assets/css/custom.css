@@ -1,7 +1,45 @@
 /* Custom Styles */
 
+/* ------------ Fonts Begin ----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Neoneon';
+  src: url('../../fonts/neoneon-font/Neoneon-3zaD6.otf') format('truetype');
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.montserrat-regular {
+  font-weight: 400;
+}
+
+.montserrat-extra-bold {
+  font-weight: 800;
+}
+
+.antonio-bold {                             
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+}
+
+.neoneon {
+  font-family: "Neoneon";
+}
+
+
+/* ------------ Fonts End ----------------*/
+
 .team-img {
-  height: 400px;           
+  height: 400px;          
   object-fit: cover;       /* crop instead of distort */
   object-position: top;
 }
