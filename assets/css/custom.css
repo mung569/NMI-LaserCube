@@ -44,6 +44,27 @@ h1, h2, h3, h4, h5, h6 {
   object-position: top;
 }
 
+.assignment-cover {
+  height: 400px;          
+  object-fit: cover;       /* crop instead of distort */
+  object-position: center;
+}
+
+
+.poster-container {
+   height: 400px; 
+   overflow: hidden;
+}
+
+.poster-img {
+  height: 400px;          
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.1);  /* zoom in more (adjust 1.2–1.5 as needed) */
+  transform-origin: center;
+  
+}
+
 .row {
   justify-content: center;
 }
