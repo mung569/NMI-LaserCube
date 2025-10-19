@@ -102,3 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   width: fit-content;
   height: 100%;         /* inherit height from flex container */
 }
+
+.card-body strong {
+  color: #BA0C2F
+}
