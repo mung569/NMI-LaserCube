@@ -106,3 +106,15 @@ h1, h2, h3, h4, h5, h6 {
 .card-body strong {
   color: #BA0C2F
 }
+
+.asset-library ul {
+  margin-left: 2rem;
+}
+
+.asset-library strong {
+  color: #BA0C2F;
+}
+
+#asset-library-link {
+  color: #BA0C2F;
+}
