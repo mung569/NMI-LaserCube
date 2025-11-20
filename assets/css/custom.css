@@ -118,3 +118,19 @@ h1, h2, h3, h4, h5, h6 {
 #asset-library-link {
   color: #BA0C2F;
 }
+
+.bg-holder {
+  margin-top: 7.5em;
+}
+
+#details {
+  margin-top: 7rem;
+}
+
+.hero-container p, span {
+  color: white;
+}
+
+.hero-container h4 {
+  color: #CCCCCC;
+}
