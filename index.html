@@ -90,15 +90,28 @@
 
               <!--You can probably just delete these buttons, but they're here if you want them.-->
               <div class="text-center text-md-start"> <a class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="#details" role="button">Find out more</a>
-                <div class="w-100 d-block d-md-none"></div><a href="#!" role="button" data-bs-toggle="modal" data-bs-target="#popupVideo"><span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"> <img src="assets/img/hero/play.svg" width="15" alt="Play icon"/></span></a><span class="fw-medium">Play Demo</span>
-                <div class="modal fade" id="popupVideo" tabindex="-1" aria-labelledby="popupVideo" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
-                      <!--The YouTube link here sets the video that plays in the pop-up modal triggered by "Play Demo".-->
-                      <iframe class="rounded" style="width:100%;max-height:500px;" height="500px" src="https://www.youtube.com/embed/_lhdhL4UDIo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-                    </div>
-                  </div>
-                </div>
+               <div class="w-100 d-block d-md-none"></div>
+<a href="#!" role="button" data-bs-toggle="modal" data-bs-target="#popupVideo">
+  <span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow">
+    <img src="assets/img/hero/play.svg" width="15" alt="Play icon"/>
+  </span>
+</a>
+<span class="fw-medium">Play Demo</span>
+
+<div class="modal fade" id="popupVideo" tabindex="-1" aria-labelledby="popupVideo" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <!-- Local MP4 file instead of YouTube -->
+      <video controls class="rounded" style="width:100%; max-height:500px;">
+        <source src="assets/files/final-deliverables/LaserCube_Trailer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+  </div>
+</div>
+
               </div>
             </div>
           </div>
@@ -468,7 +481,7 @@
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
                     <h4 class="text-secondary fw-medium">Final Project</h4>
                   </div>
-                  <span class="fs-0 fw-medium">Optional quick summary of final project.</span>
+                  <span class="fs-0 fw-medium">Includes the LaserCube setup guide as well as our finalized asset library.</span>
                 </div>
               </div>
             </a>
@@ -480,15 +493,22 @@
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
                     <h4 class="text-secondary fw-medium">Trailer</h4>
                   </div>
-                  <span class="fs-0 fw-medium">Optional quick summary of trailer.</span>
+                  <span class="fs-0 fw-medium">Click here to watch our fun promotional trailer for the NMI LaserCube!</span>
                 </div>
               </div>
             </a>
             <div class="modal fade" id="popup-trailer" tabindex="-1" aria-labelledby="popupVideo" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                  <!--The YouTube link here sets the video that plays in the pop-up modal triggered by "Play Demo".-->
-                  <iframe class="rounded" style="width:100%;max-height:500px;" height="500px" src="https://www.youtube.com/embed/_lhdhL4UDIo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                <div class="modal-content p-0">
+                  <video 
+                    class="rounded w-100" 
+                    style="max-height:500px;" 
+                    controls 
+                    preload="metadata"
+                  >
+                    <source src="assets/files/final-deliverables/LaserCube_Trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
             </div>
