@@ -177,6 +177,15 @@ nav {
   color: black;
 }
 
+.hovering-cards .card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hovering-cards .card:hover {
+  transform: scale(1.04); /* slight enlargement */
+}
+
+
 
 
 
