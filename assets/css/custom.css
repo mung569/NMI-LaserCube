@@ -185,6 +185,10 @@ nav {
   transform: scale(1.04); /* slight enlargement */
 }
 
+.asset-link:hover {
+  color: black;
+}
+
 
 
 
