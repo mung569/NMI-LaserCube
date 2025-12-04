@@ -137,7 +137,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  background-color: white;
+  background-color: white !important;
+}
+
+#play-button:hover {
+  background-color: #CCCCCC !important;
 }
 
 
