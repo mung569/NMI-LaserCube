@@ -171,6 +171,14 @@ nav {
   opacity: 1;
 }
 
+#asset-lib-link {
+  color:#BA0C2F;
+}
+
+#asset-lib-link:hover {
+  color: black;
+}
+
 
 
 
