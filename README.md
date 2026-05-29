@@ -18,7 +18,7 @@ A centralized, high-fidelity digital asset management platform and web presence 
 
 ### Directory Structure
 ```text
-├── assets/                  # Optimized 3D models, SVGs, and laser-ready vector paths
+├── assets/                  # Local project media (videos, images), UI styling, scripts, and downloadable project PDFs
 ├── fonts/neoneon-font/      # Typography implementing the project's visual brand
 ├── vendors/                 # Bootstrap styling and utility libraries
 ├── index.html               # Main landing page & centralized project management dashboard
@@ -38,12 +38,13 @@ A centralized, high-fidelity digital asset management platform and web presence 
 * Transformed a baseline template architecture into a customized, responsive project management portal.
 * Engineered clean navigation logic linking iterative project milestones (`1.0.html`, `1.1.html`) to allow the external client to trace asset evolution and approval states.
 * Implemented a neon aesthetic framework documented explicitly in `design-guide.html` to align with the visual nature of laser light shows.
+* Developed an intuitive media layout to stream high-fidelity project videos and static render previews directly on-site.
 
 ### 2. 3D Asset & Animation Pipeline (Blender to Laser)
 
 * Partnered with the client to engineer high-fidelity 3D assets in Blender tailored for live event environments.
 * Handled mesh optimization and polygon reduction to ensure vector paths could be parsed efficiently by laser controllers without causing scanning lag or flicker.
-* Exported assets into formats compatible with vector rendering engines, enhancing the spatial and visual storytelling capabilities of live laser projections.
+* Optimized web delivery by serving lightweight video and image previews on the web platform, while anchoring raw, high-volume Blender source files in an externally-managed OneDrive repository for client download.
 
 ### 3. LaserCube & LaserOS Hardware Integration
 
@@ -58,7 +59,7 @@ A centralized, high-fidelity digital asset management platform and web presence 
 To maintain complete transparency and long-term maintainability for the client, this repository includes:
 
 * **`design-guide.html`:** Ensures future developers or design teams can scale the web platform while maintaining strict brand consistency.
-* **`handoff.html`:** A localized, standalone operations manual providing the client with step-by-step instructions for LaserCube deployment, Blender asset creation workflows, and direct access links to the externally-hosted asset repository.
+* **`handoff.html`:** A localized, standalone operations manual providing the client with step-by-step instructions for LaserCube deployment, Blender asset creation workflows, and direct access links to the externally-hosted OneDrive asset repository.
 * **Versioned Pages (`1.0.html`, `1.1.html`):** Retained to provide an immutable historical audit trail of project deliverables across the lifecycle (August 2025 – November 2025).
 
 ---
